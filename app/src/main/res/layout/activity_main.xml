@@ -1,3 +1,4 @@
+<!--Super Wrap Layout -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
 
@@ -9,6 +10,7 @@
     tools:context=".MainActivity"
     android:weightSum="1">
 
+    <!--Linear Layout on the top buttons -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="50dp"
@@ -52,7 +54,7 @@
 
     </LinearLayout>
 
-    <!--App Canvas-->
+    <!--App Center Canvas-->
     <!--instance of the view DrawingCanvas class-->
     <com.fadzlirazali.wocoapp.DrawingCanvas
 
@@ -73,7 +75,7 @@
         android:layout_gravity="center"
         android:orientation="vertical">
 
-        <!-- Top Color Pallete -->
+        <!-- Bottom Top Color Pallete -->
         <!--android:id use it in Java when the app starts to set the first default color as selected-->
         <LinearLayout
             android:id="@+id/paint_colors"
@@ -145,7 +147,7 @@
 
         </LinearLayout>
 
-        <!-- Bottom Color Pallete -->
+        <!--Bottom Bottom Color Pallete -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

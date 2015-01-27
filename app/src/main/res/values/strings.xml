@@ -8,5 +8,6 @@
     <string name="erase">Erase</string>
     <string name="save">Save</string>
     <string name="paint">Paint</string>
+    <string name="action_settings">action_settings</string>
 
 </resources>
